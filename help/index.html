@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<title>GFXFree.Net - All For WebMasters...</title>
+		
+		<!-- CSS style -->
+		<link rel="shortcut icon" href="assets/images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="assets/css/global.css" />
+		<link rel="stylesheet" type="text/css" href="assets/js/google-code-prettify/prettify.css" />
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/globals.js"></script>
+		<script type="text/javascript" src="assets/js/google-code-prettify/prettify.js"></script>
+	</head>
+	<body>
+		
+		<!-- Header -->
+		<header>
+			<div class="container clearfix">
+				<div class="flashblue">
+					<a href="http://www.codegrape.com/user/flashblue"><img src="assets/images/flashblue.png" width="50" height="50" alt="FlashBlue" title="FlashBlue" /></a>
+				</div>
+				<div class="align-left">
+					<div class="logo"><a href="http://GFXFree.Net">GFXFree.Net</a> - Download Unique Web Templates And Scripts</div>
+					<div class="slogan">Modern multipurposes template.</div>
+				</div>
+			</div>
+		</header>
+		
+		<!-- Container -->
+		<div class="container">	
+			<div class="author">
+				<div class="left">
+					<p>
+						Created: 18/11/2013<br />
+						By: <a href="http://www.codegrape.com/user/flashblue/portfolio">FlashBlue</a><br />
+						Profile: <a href="http://www.codegrape.com/user/flashblue">www.codegrape.com/user/flashblue</a><br />
+						Website: <a href="http://www.flashbluedesign.com/">www.flashbluedesign.com</a><br />
+						E-mail: <a href="mailto:flashblue80@hotmail.com">flashblue80@hotmail.com</a><br />
+						Twitter: <a href="http://twitter.com/flashblue80">twitter.com/flashblue80</a>						 
+					</p>
+				</div>
+				<div class="right">
+					<p>Thank you for purchasing our component. If you have any questions that are beyond the scope of this help file, please feel free to email via our <a href="mailto:flashblue80@hotmail.com">email</a>. Thanks so much!</p>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+			
+			<h2 class="alt">Table of Contents</h2>
+			<ol class="alpha">
+				<li><a href="#directories">Directories</a></li>
+				<li><a href="#font">Font Used</a></li>
+				<li><a href="#colors">Color Schema</a></li>
+				<li><a href="#animations">Block Animations</a></li>
+				<li><a href="#twitter">Twitter Feed</a></li>
+				<li><a href="#contact">Contact Form</a></li>				
+			</ol>
+			
+			<hr />
+			<h3 id="directories">A) Directories</h3>
+			<p>
+				<b>source</b> - PSD files.
+			</p>
+			<p>
+				<b>deploy</b> – Published files to use the theme where you can modify all content and features.
+				These are the files you need to <span class="note">upload to your server</span>.
+			</p>
+			<p><b>help</b> – Help file (HTML)</p>
+			
+			<hr />
+			<h3 id="font">B) Font Used</h3>
+			<p>
+				<strong>Open Sans</strong> (You can download it here as free: <a href="http://www.fontsquirrel.com/fonts/open-sans" target="_blank">http://www.fontsquirrel.com/fonts/open-sans</a>)<br />
+				<strong>Fontello</strong> (if you want to use another set of icons go to this site and choose the icons that you want <a href="http://www.fontello.com" target="_blank">http://www.fontello.com</a>)
+			</p>
+			<p>You can change font from CSS file.</p>
+			
+			<hr />
+			<h3 id="animations">B) Color Schema</h3>
+			<p>Artemis comes with 6 predefined colors <strong>orange</strong>, <strong>green</strong>, <strong>blue</strong>, <strong>turquoise</strong>, <strong>yellow</strong> and <strong>grey</strong>.</p>
+			<p>You can change the color of theme by the following code in <b>index.html</b>, <em>&lt;head&gt;</em> tag:
+<pre class="prettyprint lang-html linenums">
+&lt;link class="colors" rel="stylesheet" href="layout/colors/orange.css" type="text/css"&gt;
+</pre>				
+			
+			<hr />
+			<h3 id="animations">C) Block Animations</h3>
+			<p>To add appearing animation to block u just need to set class as <b>scroll-animated-item</b> and <b>data-scroll-animation</b> attribute as:</p>
+			<p class="th clearfix">
+				<strong>flash</strong> <strong>shake</strong> <strong>bounce</strong> <strong>tada</strong> <strong>swing</strong> <strong>wobble</strong> <strong>pulse</strong>
+				<strong>zoomIn</strong> <strong>fadeIn</strong> <strong>fadeInUp</strong> <strong>fadeInDown</strong> <strong>fadeInLeft</strong> <strong>fadeInRight</strong> <strong>fadeInUpBig</strong>
+				<strong>fadeInDownBig</strong> <strong>fadeInLeftBig</strong> <strong>fadeInRightBig</strong> <strong>bounceIn</strong> <strong>bounceInUp</strong> <strong>bounceInDown</strong> <strong>bounceInLeft</strong>
+				<strong>bounceInRight</strong> <strong>rotateIn</strong> <strong>rotateInUpLeft</strong> <strong>rotateInDownLeft</strong> <strong>rotateInUpRight</strong> <strong>rotateInDownRight</strong> 
+				<strong>hinge</strong> <strong>rollIn</strong>
+			</p>	
+			
+			<hr />
+			<h3 id="twitter">D) Twitter Feed</h3>
+			<p>
+				The template comes with a twitter feed section to display the last tweet from you twitter account. 
+				By default, it's set the twitter feed the display my own twitter feed for the preview purposes. 
+				To change the twitter feed to display your own feed, open <strong>layout/js/main.js</strong> and go to line 740. 
+				You'll find this line:
+			</p>
+<pre class="prettyprint lang-js linenums">
+username:'flashblue80', //Change username
+</pre>				
+			<p>You only have to change the username to yours.</p>
+			<p>
+				<span class="note">Important note:</span> Since Twitter requires every request to be authenticated due the new version 1.1 of twitter API, it needs some private informations and settings. 
+				I recommend that you open the index.php file in the twitter folder and fill in with your own API settings. You can create a Twitter app here: <a href="https://dev.twitter.com" target="_blank"><b>https://dev.twitter.com</b></a>.
+			</p>
+				The <b>index.php</b> is located in the <b>layout/plugins/twitter/</b> folder. 
+				If you open it there is a config section from line 24 you are only interested in this four lines below:</p>
+<pre class="prettyprint lang-php linenums">
+// Your Twitter App Consumer Key
+private $consumer_key    = '';
+
+// Your Twitter App Consumer Secret
+private $consumer_secret = '';
+
+// Your Twitter App Access Token
+private $user_token      = '';
+
+// Your Twitter App Access Token Secret
+private $user_secret     = '';
+
+</pre>		
+			<p>
+				You have to change this information to yours, when you create your twitter app here <a href="https://dev.twitter.com" target="_blank"><b>https://dev.twitter.com/</b></a> you get this information under <a href="https://dev.twitter.com/apps" target="_blank"><b>My applications</b></a> tab.
+			</p>
+			
+			<hr />
+			<h3 id="contact">E) Contact Form</h3>
+			<p>You need to configure <strong>contact.php</strong> to get e-mails from the users.</p>
+			<p>Change those variables on <strong>line 11</strong> with the real name & e-mail address to send the mail information:</p>
+			<pre class="prettyprint lang-php linenums">
+$toName = "Artemis";
+$toAddress = "email@sitename.com";
+</pre>
+			
+			<!-- Social profiles -->	
+			<div class="social">
+				<a href="http://twitter.com/flashblue80" target="_blank"><img src="assets/images/social/twitter.png" width="32" height="32" alt="Twitter" title="Twitter" /></a> 
+				<a href="http://www.facebook.com/flashbluedesign" target="_blank"><img src="assets/images/social/facebook.png" width="32" height="32" alt="Facebook" title="Facebook" /></a> 
+				<a href="http://plus.google.com/114361730793593826266" target="_blank"><img src="assets/images/social/google.png" width="32" height="32" alt="Google+" title="Google+" /></a> 
+				<a href="http://www.linkedin.com/in/samiyilmaz80" target="_blank"><img src="assets/images/social/linkedin.png" width="32" height="32" alt="Linkedin" title="Linkedin" /></a> 
+				<a href="http://samiyilmaz.deviantart.com/" target="_blank"><img src="assets/images/social/deviantart.png" width="32" height="32" alt="Deviant Art" title="Deviant Art" /></a> 
+				<a href="http://www.behance.net/flashblue" target="_blank"><img src="assets/images/social/behance.png" width="32" height="32" alt="Behance" title="Behance" /></a> 
+				<a href="http://www.dribbble.com/flashblue" target="_blank"><img src="assets/images/social/dribbble.png" width="32" height="32" alt="Dribbble" title="Dribbble" /></a> 
+				<a href="http://www.flickr.com/photos/flashblue" target="_blank"><img src="assets/images/social/flickr.png" width="32" height="32" alt="Flickr" title="Flickr" /></a> 
+				<a href="http://www.youtube.com/user/flashblue80" target="_blank"><img src="assets/images/social/youtube.png" width="32" height="32" alt="YouTube" title="YouTube" /></a> 
+				<a href="http://www.stumbleupon.com/stumbler/flashblue80" target="_blank"><img src="assets/images/social/stumbleupon.png" width="32" height="32" alt="StumbleUpon" title="StumbleUpon" /></a> 
+				<a href="http://friendfeed.com/samiylmaz" target="_blank"><img src="assets/images/social/friendfeed.png" width="32" height="32" alt="FriendFeed" title="FriendFeed" /></a> 
+				<a href="http://flashblue80.tumblr.com/" target="_blank"><img src="assets/images/social/tumblr.png" width="32" height="32" alt="Tumblr" title="Tumblr" /></a> 
+				<a href="http://www.codegrape.com/feeds/user/flashblue.atom" target="_blank"><img src="assets/images/social/rss.png" width="32" height="32" alt="RSS Feed" title="RSS Feed" /></a> 
+			</div>
+			
+		</div>
+		
+		<!-- Go to top arrow -->
+		<div class="totop">
+		   <div class="gototop">
+				<div class="arrowgototop"></div>
+		   </div>
+	  	</div>
+	  
+	</body>
+</html>

@@ -1,0 +1,406 @@
+/******************
+    - General -
+******************/
+@font-face {
+	font-family: "BebasNeueRegular";
+	src: url("../fonts/BebasNeue-webfont.eot");
+	src: url("../fonts/BebasNeue-webfont.eot?#iefix") format("eot"), url("../fonts/BebasNeue-webfont.woff") format("woff"), url("../fonts/BebasNeue-webfont.ttf") format("truetype"), url("../fonts/BebasNeue-webfont.svg#webfontfuvdSzbb") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+*:focus {
+	outline: 0;
+}
+
+body {
+	font: normal 100% Arial, Sans-Serif;
+	color: #333;
+	background-color: #F0F0F0;
+}
+
+img {
+	border: none;
+}
+
+p {
+	margin: 0 0 18px;
+}
+
+a {
+	color: #196faf;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	display: block;
+	border: none;
+	height: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #DDD;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: bold;
+	color: #111;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+/*******************
+    - General  -
+*******************/
+.align-left {
+	float: left;
+}
+
+.align-right {
+	float: right;
+}
+
+.alt {
+	color: #666;
+	font-family: "Warnock Pro", "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+li ul, li ol {
+	margin: 0 15px;
+}
+
+ul, ol {
+	margin: 0 15px 15px 40px;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ol.alpha {
+	list-style: upper-alpha;
+}
+
+.note {
+	color: #CD0000;
+	font-weight: bold;
+}
+
+/******************
+    - Header  -
+******************/
+header {
+	display: block;
+	clear: both;
+	position: relative;
+	width: 100%;
+	background-color: #444;
+	border-bottom: 1px solid #FFF;
+}
+
+header .container {
+	clear: both;
+	width: 790px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+header .flashblue {
+	float: left;
+	width: 50px;
+	margin-right: 15px;
+}
+
+header .logo {
+	position: relative;
+	clear: both;
+	font-family: "BebasNeueRegular";
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 38px;
+	color: #FFF;
+	-moz-text-shadow: 0px 1px rgba(0,0,0,0.6);
+	text-shadow: 0px 1px rgba(0,0,0,0.6);
+}
+
+header .slogan {
+	clear: both;
+	font-size: 11px;
+	color: #999;
+	line-height: 14px;
+}
+
+/*********************
+    - Container  -
+*********************/
+.container {
+	clear: both;
+	width: 790px;
+	margin: 30px auto;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+/******************
+    - Author  -
+******************/
+.author {
+	clear: both;
+}
+
+.author p {
+	font-size: 13px;
+	color: #FFF;
+	margin: 18px 40px;
+	-moz-text-shadow: 0px 1px rgba(0,0,0,0.3);
+	text-shadow: 0px 1px rgba(0,0,0,0.3);
+}
+
+.author .left {
+	float: left;
+	width: 394px;
+	font-weight: bold;
+	background-color: #555;
+	border-right: 1px solid #000;
+	min-height: 144px;
+	border-radius: 3px 0px 0px 3px;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #666), color-stop(100%, #333));
+	background-image: -webkit-linear-gradient(#666, #333);
+	background-image: -moz-linear-gradient(#666, #333);
+	background-image: -o-linear-gradient(#666, #333);
+	background-image: linear-gradient(#666, #333);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666',EndColorStr='#333333')";
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	-o-background-clip: padding-box;
+	-ms-background-clip: padding-box;
+	-khtml-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+.author .right {
+	float: left;
+	width: 394px;
+	background-color: #888;
+	border-left: 1px solid #999;
+	padding-top: 18px;
+	min-height: 126px;
+	border-radius: 0px 3px 3px 0px;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #999), color-stop(100%, #666));
+	background-image: -webkit-linear-gradient(#999, #666);
+	background-image: -moz-linear-gradient(#999, #666);
+	background-image: -o-linear-gradient(#999, #666);
+	background-image: linear-gradient(#999, #666);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#999999',EndColorStr='#666666')";
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	-o-background-clip: padding-box;
+	-ms-background-clip: padding-box;
+	-khtml-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+.author a {
+	color: #00B0f3;
+	text-decoration: none;
+}
+
+.author .right a {
+	color: #33ccff;
+}
+
+.author a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+/*****************
+    - Table  -
+*****************/
+table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table b {
+	font-weight: bold;
+}
+
+table thead {
+	font-size: 14px;
+}
+
+table tbody tr:hover {
+	background-color: #F9F9F9;
+}
+
+td, th {
+	text-align: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #BBB;
+}
+
+td strong, th strong, p.th strong {
+	background: #666;
+	color: #FFF;
+	font-weight: normal;
+	padding: 1px 4px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+
+td strong {
+	background: #CCC;
+	color: #555;
+	font-weight: bold;
+}
+
+p.th strong {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+/*******************
+    - Social  -
+*******************/
+.social {
+	clear: both;
+	text-align: right;
+	margin-top: 30px;
+}
+
+/*********************
+    - Go to top  -
+*********************/
+.totop {
+	display: none;
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+}
+
+.gototop {
+	height: 41px;
+	width: 41px;
+	z-index: 9;
+	cursor: pointer;
+	text-align: center;
+	background-color: #000;
+	-webkit-border-radius: 90px;
+	-khtml-border-radius: 90px;
+	-moz-border-radius: 90px;
+	-o-border-radius: 90px;
+	border-radius: 90px;
+	overflow: hidden;
+}
+
+.arrowgototop {
+	background: url(../images/go-to-top-arrow.png) no-repeat;
+	position: relative;
+	left: 14px;
+	top: 16px;
+	width: 24px;
+	height: 90px;
+	z-index: 10;
+}
+
+.gototop:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+/***********************
+    - Pretty code  -
+***********************/
+code, pre {
+	padding: 0 3px 2px;
+	font-family: Menlo, Monaco, "Courier New", monospace;
+	font-size: 12px;
+	color: #333333;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+code {
+	padding: 3px 4px;
+	color: #d14;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+}
+
+pre {
+	display: block;
+	padding: 8.5px;
+	margin: 0 0 9px;
+	font-size: 12px;
+	line-height: 18px;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+pre.prettyprint {
+	margin-bottom: 18px;
+}
+
+pre code {
+	padding: 0;
+	color: inherit;
+	background-color: transparent;
+	border: 0;
+}
+
+.pre-scrollable {
+	max-height: 340px;
+	overflow-y: scroll;
+}
+
+/*********************
+    - Clear fix  -
+*********************/
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}

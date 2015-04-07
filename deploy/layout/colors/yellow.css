@@ -1,0 +1,91 @@
+.main-menu li.current-page-item > a,
+.block-main-slider .lnk a:hover,
+.tweets .tweet_list a:hover,
+.block-contacts .info p a,
+.block-blog article .description h3 a:hover,
+.block-blog-post .content h2 span,
+.block-comments .comment .name a:hover,
+.block-sidebar-recent-posts article h4 a:hover {
+	color:#ffbe00;
+}
+
+.block-main-slider .lnk a:hover i {
+	border-color:#ffbe00;
+}
+
+.block-main-slider .caption-3 .title,
+.block-audio .mejs-controls .mejs-time-rail .mejs-time-current,
+.block-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.block-comments .comment .reply:hover {
+	background-color:#ffbe00;
+}
+
+.block-main-slider .flex-direction-nav a.flex-prev:hover,
+.block-main-slider .flex-direction-nav a.flex-next:hover,
+.block-project-item .flex-direction-nav a.flex-prev:hover,
+.block-project-item .flex-direction-nav a.flex-next:hover,
+.block-team .teammates .flex-direction-nav a.flex-prev:hover,
+.block-team .teammates .flex-direction-nav a.flex-next:hover,
+.block-blog .flex-direction-nav a.flex-prev:hover,
+.block-blog .flex-direction-nav a.flex-next:hover,
+.block-blog-post .flex-direction-nav a.flex-prev:hover,
+.block-blog-post .flex-direction-nav a.flex-next:hover {
+	color:#ffbe00;
+	border-color:#ffbe00;	
+}
+
+.block-main-slider .flex-control-nav li a.flex-active,
+.block-skills .level-rail .level .bar,
+.general-button.black:hover, 
+.general-button.navy:hover, 
+.general-button.grey:hover {
+	background-color:#ffbe00;
+}
+
+.block-projects .image.hovered .hover,
+.desktop-device .block-projects .image:hover .hover {
+	background-color:#ffbe00; 
+	background-color:rgba(255, 190, 0, 0.74);
+}
+
+.block-team .teammate .photo .hover {
+	background-color:#ffbe00;
+	background-color:rgba(255, 190, 0, 0.21);
+}
+
+.block-contacts .form .field.focused, .block-contacts .form .textarea.focused {
+	-webkit-box-shadow:inset 0px 0px 0px 1px #ffbe00;
+	-moz-box-shadow:inset 0px 0px 0px 1px #ffbe00;
+	box-shadow:inset 0px 0px 0px 1px #ffbe00;
+}
+
+.general-button.big {
+	background-color:rgba(255, 190, 0, 0.88); 
+}
+
+.block-stats li {
+	background-image:url(../images/bg_stats_yellow.png); 
+}
+
+.block-blog-post .content blockquote {
+	border-left:4px solid #ffbe00;	
+}
+
+.block-leave-comment .field.focused, .block-leave-comment .textarea.focused {
+	border-color:#ffbe00;
+	-webkit-box-shadow:0px 0px 3px 0px rgba(255, 190, 0, 0.27);
+	-moz-box-shadow:0px 0px 3px 0px rgba(255, 190, 0, 0.27);
+	box-shadow:0px 0px 3px 0px rgba(255, 190, 0, 0.27);
+}
+
+@media (max-width:1100px) {
+	.block-stats li {
+		background-image:url(../images/bg_stats_yellow_748.png);
+	}
+}
+
+@media (max-width:767px) {
+	.block-stats li {
+		background-image:url(../images/bg_stats_420.png);
+	}
+}
