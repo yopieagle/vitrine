@@ -13,7 +13,11 @@
 	border-color:#1fb4da;
 }
 
-.block-main-slider .caption-3 .title,
+.block-main-slider .caption-3 .title
+{
+	background-color : rgba(30,179,217,0.8);
+}
+
 .block-audio .mejs-controls .mejs-time-rail .mejs-time-current,
 .block-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
 .block-comments .comment .reply:hover {
