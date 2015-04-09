@@ -404,9 +404,9 @@
 							
 							<!-- Block title -->
 							<div class="block-title">
-								<h1>OUR WORKS</h1>
+								<h1>Nos Projets</h1>
 								<span class="border"></span>
-								<h2>We help build products from idea to launch. We're experts at web &amp; mobile design, branding, iOS development & frontend. Here's some of our work.</h2>
+								<h2>We help build products from idea to launch. We're experts at web design &amp; development . Here's some of our work.</h2>
 								
 								<!-- Filter -->
 								<div class="block-filter">
@@ -594,7 +594,7 @@
 									<div class="image">
 										<img src="images/projects/3.png" alt="">
 										<div class="hover">
-											<div class="title">Romanting Evening</div>
+											<div class="title">Stabel</div>
 											<div class="date">18 September, 2013</div>
 											<a href="#" class="lnk-project" data-rel="projectItem"><i class="icon-picture"></i></a>
 										</div>
@@ -602,8 +602,8 @@
 									
 									<div class="project-item">
 										<div class="image">
-											<img src="images/projects/big_3.png" alt="">
-											<a href="images/projects/big_3.png" class="project-zoom" title="">Project zoom</a>
+											<img src="images/projects/big_stabel_1.png" alt="">
+											<a href="images/projects/big_stabel_1.png" class="project-zoom" title="">Project zoom</a>
 										</div>
 										
 										<div class="info">
