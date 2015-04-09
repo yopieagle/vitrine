@@ -71,7 +71,7 @@
 									<li class="current-page-item"><a href="#home">Accueil</a></li>
 									<li><a href="#about">À Propos</a></li>
 									<li><a href="#services">Services</a></li>
-									<li><a href="#projects">Projects</a></li>
+									<li><a href="#projects">Projets</a></li>
 									<li><a href="#team">Team</a></li>
 									<li><a href="#blog">Blog</a></li>
 									<li><a href="#clients">Clients</a></li>
@@ -443,16 +443,39 @@
 									<div class="image">
 										<img src="images/projects/1.png" alt="">
 										<div class="hover">
-											<div class="title">Blaithiel Girl</div>
-											<div class="date">12 November, 2013</div>
+											<div class="title">Ipixa</div>
+											<div class="date">Magazine de geek</div>
 											<a href="#" class="lnk-project" data-rel="projectItem"><i class="icon-picture"></i></a>
 										</div>
 									</div>
 									
 									<div class="project-item">
+
 										<div class="image">
-											<img src="images/projects/big_1.png" alt="">
-											<a href="images/projects/big_1.png" class="project-zoom" title="">Project zoom</a>
+											<div class="slider">
+												<div>
+													<ul>
+														<li>
+															<img src="images/projects/big_ipixa_1.png" alt="">
+															<a href="images/projects/big_ipixa_1.png" class="project-zoom" title="">Project zoom</a>
+														</li>
+														<li>
+															<img src="images/projects/big_ipixa_2.png" alt="">
+															<a href="images/projects/big_ipixa_2.png" class="project-zoom" title="">Project zoom</a>
+														</li>
+
+														<li>
+															<img src="images/projects/big_ipixa_3.png" alt="">
+															<a href="images/projects/big_ipixa_3.png" class="project-zoom" title="">Project zoom</a>
+														</li>
+
+														<li>
+															<img src="images/projects/big_ipixa_4.png" alt="">
+															<a href="images/projects/big_ipixa_4.png" class="project-zoom" title="">Project zoom</a>
+														</li>
+													</ul>
+												</div>
+											</div>
 										</div>
 										
 										<div class="info">
@@ -477,7 +500,7 @@
 											</div>
 											
 											<div class="description">
-												<h2>Blaithiel Girl</h2>
+												<h2>Ipixa - Magazine de geek</h2>
 												<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo eque porro quisquam est, qui dolorem.</p>
 												<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.</p>
 												
@@ -501,8 +524,8 @@
 									<div class="image">
 										<img src="images/projects/2.png" alt="">
 										<div class="hover">
-											<div class="title">Country Summer</div>
-											<div class="date">30 October, 2013</div>
+											<div class="title">Touhfat Al Arouss</div>
+											<div class="date">Site de rencontre</div>
 											<a href="#" class="lnk-project" data-rel="projectItem"><i class="icon-picture"></i></a>
 										</div>
 									</div>
@@ -513,12 +536,12 @@
 												<div>
 													<ul>
 														<li>
-															<img src="images/projects/big_2_1.png" alt="">
-															<a href="images/projects/big_2_1.png" class="project-zoom" title="">Project zoom</a>
+															<img src="images/projects/big_ta_1.png" alt="">
+															<a href="images/projects/big_ta_1.png" class="project-zoom" title="">Project zoom</a>
 														</li>
 														<li>
-															<img src="images/projects/big_2_2.png" alt="">
-															<a href="images/projects/big_2_2.png" class="project-zoom" title="">Project zoom</a>
+															<img src="images/projects/big_ta_2.png" alt="">
+															<a href="images/projects/big_ta_2.png" class="project-zoom" title="">Project zoom</a>
 														</li>
 													</ul>
 												</div>
