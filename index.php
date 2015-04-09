@@ -329,9 +329,9 @@
 						
 							<!-- Block title -->
 							<div class="block-title scroll-animated-item" data-scroll-animation="fadeIn">
-								<h1>Services</h1>
+								<h1>Nos Services</h1>
 								<span class="border"></span>
-								<h2>We believe that apps and websites should not only be eye catching but actually provide a great user experience that users will remember.</h2>
+								<h2>Nous croyons que les applications et les sites Web ne doivent pas seulement être accrocheur mais en fait fournir une grande expérience que les utilisateurs se souviendront .</h2>
 							</div>
 							
 							<div id="services_wrapper" class="block-services">
