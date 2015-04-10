@@ -652,7 +652,7 @@
 									<div class="image">
 										<img src="images/projects/4.png" alt="">
 										<div class="hover">
-											<div class="title">Spring Day in Paris</div>
+											<div class="title">Fiesta PHP Framework</div>
 											<div class="date">30 August, 2013</div>
 											<a href="#" class="lnk-project" data-rel="projectItem"><i class="icon-picture"></i></a>
 										</div>
@@ -664,8 +664,8 @@
 												<div>
 													<ul>
 														<li>
-															<img src="images/projects/big_4_1.png" alt="">
-															<a href="images/projects/big_4_1.png" class="project-zoom" title="">Project zoom</a>
+															<img src="images/projects/big_fiesta_1.png" alt="">
+															<a href="images/projects/big_fiesta_1.png" class="project-zoom" title="">Project zoom</a>
 														</li>
 														<li>
 															<img src="images/projects/big_4_2.png" alt="">
