@@ -68,7 +68,7 @@
 						<div class="main-menu">
 							<nav>
 								<ul>
-									<li class="current-page-item"><a href="#home">Accueil</a></li>
+									<li class="current-page-item"><a href="#home">Home</a></li>
 									<li><a href="#about">À Propos</a></li>
 									<li><a href="#services">Services</a></li>
 									<li><a href="#projects">Projets</a></li>
