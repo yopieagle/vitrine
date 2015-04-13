@@ -10,7 +10,7 @@
 		<meta name="description" content="">
 		
 		<!-- Title -->
-		<title>GFXFree.Net - All For WebMasters...</title>
+		<title>EasyWeb- Freelancers</title>
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="images/favicon.ico">
@@ -63,19 +63,12 @@
 			<header>
 				<div id="header">
 					<div class="inner">
-						<div id="logo"><a href="index.html"><img src="images/logo-orange.png" alt="Artemis" title="Artemis"></a></div>
+						<div id="logo"><a href="index.html"><img src="images/logo-blue.png" alt="easyweb" title="easyweb"></a></div>
 						
 						<div class="main-menu">
 							<nav>
 								<ul>
-									<li class="current-page-item"><a href="#home">Home</a></li>
-									<li><a href="#about">À Propos</a></li>
-									<li><a href="#services">Services</a></li>
-									<li><a href="#projects">Projets</a></li>
-									<li><a href="#team">Team</a></li>
-									<li><a href="#blog">Blog</a></li>
-									<li><a href="#clients">Clients</a></li>
-									<li><a href="#contacts">Contact</a></li>
+									<?php include_once 'inc/menu.php'; ?>
 								</ul>
 							</nav>
 						</div>
