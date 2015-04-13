@@ -2833,6 +2833,7 @@ header.scrolled .main-menu {
 	position:relative;
 	background:url(images/bg_contacts.png);
 	z-index:2;
+	background:#1eb4da;
 }
 
 .block-contacts .column {
@@ -2983,6 +2984,7 @@ header.scrolled .main-menu {
 	right:0px; 
 	top:0px; 
 	bottom:0px;
+	display: none;
 }
 
 .block-map #map {

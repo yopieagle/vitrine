@@ -406,20 +406,20 @@
 							<div class="block-title">
 								<h1>Nos Projets</h1>
 								<span class="border"></span>
-								<h2>We help build products from idea to launch. We're experts at web design &amp; development . Here's some of our work.</h2>
+								<h2>Nous créons des produits depuis l'idée jusqu'au lancement . Nous sommes des experts à la conception web et développement . Voici certains de nos travaux.</h2>
 								
 								<!-- Filter -->
 								<div class="block-filter">
 									<div class="text">
-										<a href="#" id="filter_button">Sort Portfolio</a>
+										<a href="#" id="filter_button">Catégorie</a>
 									</div>
 									<div id="filter" class="filter">
 										<ul>
-											<li class="active"><a href="all">All Projects</a></li>
-											<li><a href="web">Web Design</a></li>
-											<li><a href="photo">Photography</a></li>
-											<li><a href="video">Video</a></li>
-											<li><a href="illustration">Illustration</a></li>
+											<li class="active"><a href="all">Tous</a></li>
+											<li><a href="mag">Magazines</a></li>
+											<li><a href="vitrine">Vitrines</a></li>
+											<li><a href="dev">Développement</a></li>
+											<!-- <li><a href="illustration">Illustration</a></li> -->
 										</ul>
 									</div>
 								</div>
@@ -439,7 +439,7 @@
 							<div id="filtered_container">
 								
 								<!-- Project 1 -->
-								<article class="web">
+								<article class="mag" id="prj1">
 									<div class="image">
 										<img src="images/projects/1.png" alt="">
 										<div class="hover">
@@ -520,7 +520,7 @@
 								</article>
 								
 								<!-- Project 2 -->
-								<article class="video">
+								<article class="vitrine">
 									<div class="image">
 										<img src="images/projects/2.png" alt="">
 										<div class="hover">
@@ -590,12 +590,12 @@
 								</article>
 								
 								<!-- Project 3 -->
-								<article class="photo">
+								<article class="vitrine">
 									<div class="image">
 										<img src="images/projects/3.png" alt="">
 										<div class="hover">
 											<div class="title">Stabel</div>
-											<div class="date">18 September, 2013</div>
+											<div class="date">Belgium Quality Engineering</div>
 											<a href="#" class="lnk-project" data-rel="projectItem"><i class="icon-picture"></i></a>
 										</div>
 									</div>
@@ -648,32 +648,20 @@
 								</article>
 								
 								<!-- Project 4 -->
-								<article class="illustration">
+								<article class="dev">
 									<div class="image">
 										<img src="images/projects/4.png" alt="">
 										<div class="hover">
-											<div class="title">Fiesta PHP Framework</div>
-											<div class="date">30 August, 2013</div>
+											<div class="title">Fiesta</div>
+											<div class="date">PHP Framework</div>
 											<a href="#" class="lnk-project" data-rel="projectItem"><i class="icon-picture"></i></a>
 										</div>
 									</div>
 									
 									<div class="project-item">
 										<div class="image">
-											<div class="slider">
-												<div>
-													<ul>
-														<li>
-															<img src="images/projects/big_fiesta_1.png" alt="">
-															<a href="images/projects/big_fiesta_1.png" class="project-zoom" title="">Project zoom</a>
-														</li>
-														<li>
-															<img src="images/projects/big_4_2.png" alt="">
-															<a href="images/projects/big_4_2.png" class="project-zoom" title="">Project zoom</a>
-														</li>
-													</ul>
-												</div>
-											</div>
+											<img src="images/projects/big_fiesta_1.png" alt="">
+											<a href="images/projects/big_fiesta_1.png" class="project-zoom" title="">Project zoom</a>
 										</div>
 										
 										<div class="info">
@@ -787,7 +775,7 @@
 									</div>
 								</article>
 								
-								<!-- Project 6 -->
+								<!-- Project 6 - ->
 								<article class="illustration">
 									<div class="image">
 										<img src="images/projects/6.png" alt="">
@@ -845,7 +833,7 @@
 									</div>
 								</article>
 								
-								<!-- Project 7 -->
+								<!-- Project 7 - ->
 								<article class="web">
 									<div class="image">
 										<img src="images/projects/7.png" alt="">
@@ -915,7 +903,7 @@
 									</div>
 								</article>
 								
-								<!-- Project 8 -->
+								<!-- Project 8 - ->
 								<article class="video">
 									<div class="image">
 										<img src="images/projects/8.png" alt="">
@@ -963,7 +951,7 @@
 												<ul class="list">
 													<li><i class="icon-ok-circled2"></i> Vero eos et accusamus et iusto odio dignissimos.</li>
 													<li><i class="icon-ok-circled2"></i> Ducimus qui blanditiis praesentium voluptatum sunt.</li>
-													<li><i class="icon-ok-circled2"></i> Deleniti atque corrupti quos dolores et quas.</li>
+													<li><i class="icon-ok-circled2"></i> Deleniti atque corrupti quos dolores et quas.</l'i>
 													<li><i class="icon-ok-circled2"></i> Nam libero tempore, cum soluta nobis est.</li>
 												</ul>
 											</div>
@@ -973,7 +961,7 @@
 									</div>
 								</article>
 								
-								<!-- Project 9 -->
+								<!-- Project 9 - ->
 								<article class="photo">
 									<div class="image">
 										<img src="images/projects/9.png" alt="">
@@ -1043,7 +1031,7 @@
 									</div>
 								</article>
 								
-								<!-- Project 10 -->
+								<!-- Project 10 - ->
 								<article class="photo">
 									<div class="image">
 										<img src="images/projects/10.png" alt="">
@@ -1100,6 +1088,8 @@
 										<div class="clearboth"></div>
 									</div>
 								</article>
+
+								-->
 								
 							</div>
 														
@@ -1574,10 +1564,10 @@
 					<div class="inside">
 						
 						<!-- View map button -->
-						<div class="block-contacts-button">
+						<!-- <div class="block-contacts-button">
 							<a href="#" id="view_map" class="general-button green">View Map</a>
 							<a href="#" id="view_contacts" class="general-button red">View <span>contacts</span></a>
-						</div>
+						</div> -->
 						
 						<div class="block-contacts">
 							<div class="inner">
@@ -1711,7 +1701,7 @@
 		
 		<!-- Settings (Remove it on your site) -->
 		<script type="text/javascript" src="layout/plugins/settings/jquery.cookies.min.js"></script>
-		<script type="text/javascript" src="layout/plugins/settings/settings.js"></script>
+		<!-- <script type="text/javascript" src="layout/plugins/settings/settings.js"></script> -->
 		
 	</body>
 
