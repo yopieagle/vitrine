@@ -60,7 +60,7 @@
 		<div class="wrapper query-loader">
 		
 			<!-- Header -->
-			<header>
+			<header style="opacity:0.9">
 				<div id="header">
 					<div class="inner">
 						<div id="logo"><a href="index.html"><img src="images/logo-blue.png" alt="easyweb" title="easyweb"></a></div>
